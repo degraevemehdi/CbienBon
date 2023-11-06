@@ -22178,4 +22178,12 @@ textarea.form-control-lg {
   font-family: "Playfair Display" serif;
 }
 
+.section1 {
+  background-image: url("../img/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 /*# sourceMappingURL=app.css.map */
