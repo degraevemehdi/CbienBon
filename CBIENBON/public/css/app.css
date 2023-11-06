@@ -22174,16 +22174,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.navbar-custom {
-  font-family: "Playfair Display" serif;
-}
-
 .section1 {
   background-image: url("../img/hero-bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+.section2 {
+  background-image: url("../img/about-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=app.css.map */
