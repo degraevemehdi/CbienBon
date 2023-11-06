@@ -22174,5 +22174,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar-custom {
+  font-family: "Playfair Display" serif;
+}
 
 /*# sourceMappingURL=app.css.map */
