@@ -22178,15 +22178,18 @@ textarea.form-control-lg {
   background-image: url("../img/hero-bg.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
 }
 
 .section2 {
   background-image: url("../img/about-bg.jpg");
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+}
+.section2 .section2-img img {
+  width: 500px;
 }
 
 /*# sourceMappingURL=app.css.map */
