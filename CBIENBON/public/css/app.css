@@ -22174,7 +22174,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.home-section {
+#home {
   background-image: url("../img/hero-bg.jpg");
   background-position: center;
   background-size: cover;
