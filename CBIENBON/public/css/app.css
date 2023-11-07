@@ -22196,4 +22196,20 @@ textarea.form-control-lg {
   border: 2px solid gray;
 }
 
+.titre {
+  padding: 2em 0;
+}
+
+.cadre {
+  background-color: #444444;
+  padding: 3em 1.5em;
+  transition: all ease-in-out 0.5s;
+}
+.cadre:hover {
+  background-color: #cda45e;
+}
+.cadre:hover span h2 p, .cadre:hover span .h2 p {
+  color: white;
+}
+
 /*# sourceMappingURL=app.css.map */
