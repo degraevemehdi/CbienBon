@@ -22182,14 +22182,8 @@ textarea.form-control-lg {
   height: 100vh;
 }
 
-.section-about {
+#about {
   background-image: url("../img/about-bg.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.section-about .img-about img {
-  width: 200px;
 }
 
 .why-us .box {
