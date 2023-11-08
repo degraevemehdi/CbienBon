@@ -22209,7 +22209,7 @@ textarea.form-control-lg {
 }
 
 .section-color {
-  background-color: blue;
+  background-color: #1a1814;
 }
 
 .option li {
@@ -22238,8 +22238,9 @@ textarea.form-control-lg {
   background-attachment: fixed;
 }
 
-input {
-  border: 1px solid red;
+button {
+  border: none;
+  background-color: #cda45f;
 }
 
 section {
