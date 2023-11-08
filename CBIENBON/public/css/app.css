@@ -22196,10 +22196,6 @@ textarea.form-control-lg {
   border: 2px solid gray;
 }
 
-.titre {
-  padding: 2em 0;
-}
-
 .cadre {
   background-color: #444444;
   padding: 3em 1.5em;
@@ -22210,6 +22206,31 @@ textarea.form-control-lg {
 }
 .cadre:hover span h2 p, .cadre:hover span .h2 p {
   color: white;
+}
+
+.section-color {
+  background-color: blue;
+}
+
+.option li {
+  display: inline-block;
+}
+
+.menu-img {
+  display: block;
+}
+.menu-img img {
+  width: 50px;
+  border: 2px solid gray;
+  float: left;
+}
+
+section {
+  padding: 4em;
+}
+
+.titre {
+  padding-bottom: 3em;
 }
 
 /*# sourceMappingURL=app.css.map */
