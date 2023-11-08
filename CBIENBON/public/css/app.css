@@ -22268,6 +22268,10 @@ button {
   padding-left: 50px;
 }
 
+body {
+  font-family: Open Sans sans-serif;
+}
+
 section {
   padding: 4em;
 }
