@@ -22243,6 +22243,10 @@ button {
   background-color: #cda45f;
 }
 
+.testimonial-item {
+  width: 100px;
+}
+
 section {
   padding: 4em;
 }
