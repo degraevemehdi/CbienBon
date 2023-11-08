@@ -22247,6 +22247,10 @@ button {
   width: 100px;
 }
 
+#chef img {
+  width: 400px;
+}
+
 section {
   padding: 4em;
 }
