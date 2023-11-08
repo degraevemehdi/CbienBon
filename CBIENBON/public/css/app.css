@@ -22238,6 +22238,10 @@ textarea.form-control-lg {
   background-attachment: fixed;
 }
 
+input {
+  border: 1px solid red;
+}
+
 section {
   padding: 4em;
 }
