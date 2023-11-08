@@ -22212,9 +22212,10 @@ textarea.form-control-lg {
   transition: all ease-in-out 0.5s;
 }
 .cadre:hover {
+  color: white;
   background-color: #cda45e;
 }
-.cadre:hover span h2 p, .cadre:hover span .h2 p {
+.cadre:hover span {
   color: white;
 }
 
