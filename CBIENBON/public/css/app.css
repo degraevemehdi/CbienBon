@@ -22181,6 +22181,16 @@ textarea.form-control-lg {
   background-attachment: fixed;
   height: 100vh;
 }
+#home i {
+  float: right;
+  font-size: 25px;
+  padding: 0.5em;
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  color: white;
+  border-radius: 50%;
+}
 
 #about {
   background-image: url("../img/about-bg.jpg");
