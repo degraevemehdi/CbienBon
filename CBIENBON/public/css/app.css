@@ -22275,6 +22275,9 @@ body {
 section {
   padding: 4em;
 }
+section h1, section .h1 {
+  color: #cda45f;
+}
 
 .titre {
   padding-bottom: 3em;
