@@ -22214,15 +22214,21 @@ textarea.form-control-lg {
 
 .option li {
   display: inline-block;
+  padding-right: 0.5em;
 }
 
 .menu-img {
   display: block;
+  margin-top: 1em;
 }
 .menu-img img {
-  width: 50px;
+  width: 70px;
   border: 2px solid gray;
   float: left;
+}
+.menu-img .liste-menu {
+  display: flex;
+  justify-content: space-between;
 }
 
 section {
