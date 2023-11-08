@@ -22231,6 +22231,13 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 
+#events {
+  background-image: url("../img/events-bg.jpg");
+  background-position: top center;
+  background-position: cover;
+  background-attachment: fixed;
+}
+
 section {
   padding: 4em;
 }
