@@ -22205,15 +22205,13 @@ textarea.form-control-lg {
 
 .cadre {
   background-color: #444444;
-  padding: 3em 1.5em;
   transition: all ease-in-out 0.5s;
 }
 .cadre:hover {
-  color: white;
   background-color: #cda45e;
 }
 .cadre:hover span {
-  color: white;
+  color: white !important;
 }
 
 .section-color {
