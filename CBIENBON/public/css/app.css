@@ -22250,6 +22250,19 @@ textarea.form-control-lg {
     align-items: center;
   }
 }
+#booking .form-group {
+  padding-bottom: 10px;
+}
+#booking input, #booking textarea {
+  border-radius: 0;
+  box-shadow: none;
+  background: black;
+  border-color: grey;
+}
+#booking input::placeholder, #booking textarea::placeholder {
+  color: white;
+}
+
 button {
   border: none;
   background-color: #cda45f;
