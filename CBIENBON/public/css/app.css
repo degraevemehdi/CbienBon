@@ -22214,15 +22214,6 @@ textarea.form-control-lg {
   color: white !important;
 }
 
-.section-color {
-  background-color: #1a1814;
-}
-
-.option li {
-  display: inline-block;
-  padding-right: 0.5em;
-}
-
 .menu-img {
   display: block;
   margin-top: 1em;
@@ -22230,6 +22221,7 @@ textarea.form-control-lg {
 .menu-img img {
   width: 70px;
   border: 2px solid gray;
+  border-radius: 50%;
   float: left;
 }
 .menu-img .liste-menu {
@@ -22237,6 +22229,12 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
 #events {
   background-image: url("../img/events-bg.jpg");
   background-position: top center;
@@ -22279,6 +22277,10 @@ section {
 }
 section h1, section .h1 {
   color: #cda45f;
+}
+
+.seconde-section {
+  background-color: #1a1814;
 }
 
 .titre {
