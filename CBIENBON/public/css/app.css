@@ -22242,6 +22242,14 @@ textarea.form-control-lg {
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 768px) {
+  .carousel-event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 button {
   border: none;
   background-color: #cda45f;
