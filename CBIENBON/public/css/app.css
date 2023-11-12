@@ -22272,6 +22272,26 @@ button {
   width: 100px;
 }
 
+#gallery .gallery-tablette {
+  overflow: hidden;
+}
+#gallery .gallery-tablette .gallery-img {
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+#gallery .gallery-tablette .gallery-img img {
+  transition: all ease-in-out 0.8s;
+}
+#gallery .gallery-tablette .gallery-img:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px) {
+  .gallery-tablette {
+    display: flex;
+    flex-direction: column;
+  }
+}
 #contact i {
   display: flex;
   float: left;
