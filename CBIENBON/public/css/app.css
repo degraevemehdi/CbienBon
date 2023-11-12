@@ -22292,21 +22292,23 @@ button {
     flex-direction: column;
   }
 }
-#contact i {
-  display: flex;
-  float: left;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  background-color: #cda45f;
-  border-radius: 50%;
+#contact p {
+  font-size: 0.6rem;
 }
 #contact h2, #contact .h2 {
-  padding-left: 40px;
+  font-size: 1.2rem;
 }
-#contact p {
-  padding-left: 50px;
+#contact .form-group {
+  padding-bottom: 10px;
+}
+#contact input, #contact textarea {
+  border-radius: 0;
+  box-shadow: none;
+  background: black;
+  border-color: grey;
+}
+#contact input::placeholder, #contact textarea::placeholder {
+  color: white;
 }
 
 body {
