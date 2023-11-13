@@ -22193,7 +22193,8 @@ textarea.form-control-lg {
 }
 
 #about {
-  background-image: url("../img/about-bg.jpg");
+  background-image: url("../img/about-bg.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
   background-attachment: fixed;
   padding: 50px 0;
 }
@@ -22219,6 +22220,9 @@ textarea.form-control-lg {
 
 #menu .nav-link {
   font-family: Playfair Display serif;
+  color: white;
+  border: none;
+  background-color: #1a1814;
 }
 
 .menu-img {
@@ -22251,7 +22255,8 @@ textarea.form-control-lg {
   }
 }
 #events {
-  background-image: url("../img/events-bg.jpg");
+  background-image: url("../img/events-bg.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
   background-position: top center;
   background-position: cover;
   background-attachment: fixed;
