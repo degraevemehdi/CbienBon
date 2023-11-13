@@ -22183,6 +22183,9 @@ textarea.form-control-lg {
   height: 100vh;
 }
 
+.home-item h1, .home-item .h1 {
+  font-family: Playfair Display serif;
+}
 @media screen and (max-width: 1024px) {
   .home-item {
     text-align: center;
@@ -22214,9 +22217,21 @@ textarea.form-control-lg {
   color: white !important;
 }
 
+#menu .nav-link {
+  font-family: Playfair Display serif;
+}
+
 .menu-img {
   display: block;
   margin-top: 1em;
+}
+.menu-img p {
+  font-family: Playfair Display serif;
+  color: grey;
+}
+.menu-img span {
+  color: grey;
+  font-family: Playfair Display serif;
 }
 .menu-img img {
   width: 70px;
@@ -22311,13 +22326,24 @@ button {
   color: white;
 }
 
+.footer h4, .footer .h4 {
+  font-family: Playfair Display serif;
+}
+.footer p {
+  font-family: Playfair Display serif;
+}
+
 .copyright {
   font-size: 0.6rem;
   border-top: 1px solid grey;
 }
 
+#navy .navbar-brand {
+  font-family: Playfair Display serif;
+}
+
 body {
-  font-family: Open Sans sans-serif;
+  font-family: Open Sans;
 }
 
 section {
@@ -22333,6 +22359,7 @@ section h1, section .h1 {
 
 .titre {
   padding-bottom: 3em;
+  font-family: Playfair Display serif;
 }
 
 /*# sourceMappingURL=app.css.map */
