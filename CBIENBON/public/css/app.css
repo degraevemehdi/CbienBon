@@ -22260,7 +22260,7 @@ textarea.form-control-lg {
   border-color: grey;
 }
 #booking input::placeholder, #booking textarea::placeholder {
-  color: white;
+  color: grey;
 }
 
 button {
@@ -22309,6 +22309,11 @@ button {
 }
 #contact input::placeholder, #contact textarea::placeholder {
   color: white;
+}
+
+.copyright {
+  font-size: 0.6rem;
+  border-top: 1px solid grey;
 }
 
 body {
